@@ -11,12 +11,17 @@ body {
 
 .container {
     background-color: #f7f7f7;
-    /* border: 1.8px solid black; */
     width: 27rem;
     margin: 1rem auto;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 0.8rem;
+}
+
+img {
+    width: 6rem;
+    margin: 0 0 0 9.5rem;
+    border-radius: 10px;
 }
 
 .container h3 {
@@ -45,14 +50,10 @@ body {
     padding: 1rem 0;
 }
 
-/* .form-group :first-child {
-    margin-right: 1rem;
-    font-size: 15px;
-} */
-
-/* .form-group :nth-child(2) {
-    font-size: 13px;
-} */
+#invalidEmail {
+    color: red;
+    visibility: hidden;
+}
 
 .marital-status {
     display: inline-block;
@@ -78,6 +79,7 @@ body {
     width: 13rem;
 }
 
-form > div:nth-child(8) {
-    border: none;
+.container > form > button {
+    padding: 0.6rem 2.4rem;
+    margin: 1rem 0 0 8rem;
 }
