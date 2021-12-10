@@ -42,10 +42,7 @@ img {
 
 .form-group {
     display: grid;
-    grid-template-rows: ;
     grid-template-columns: 150px 250px;
-    grid-template;
-    /* margin-bottom: 1rem; */
     border-bottom: 1px solid rgb(209, 208, 208);
     padding: 1rem 0;
 }
